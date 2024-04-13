@@ -3,10 +3,10 @@
 <br/>
 <p align="center">
   <a href="https://github.com/DXVVAY">
-    <img src="https://cdn.worldvectorlogo.com/logos/hcaptcha-2.svg" alt="Logo" width="80" height="80">
+    <img src="https://github.com/DXVVAY/hCaptcha-Text-Solver/assets/89728480/ca479b71-e143-4894-890f-10aec6e63e61" alt="Logo" width="120" height="120">
   </a>
 
-  <h3 align="center">hCaptcha Text Challenge Solver</h3>
+  <h3 align="center">fCaptcha Text Challenge Solver</h3>
 
   <p align="center">
     <a href="https://discord.gg/fCaptcha">Discord</a>
