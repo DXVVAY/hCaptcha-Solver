@@ -9,3 +9,4 @@ re
 requests
 hashlib
 g4f
+pyjwt
