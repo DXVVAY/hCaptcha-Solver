@@ -9,7 +9,7 @@
   <h3 align="center">hCaptcha Text Challenge Solver</h3>
 
   <p align="center">
-    <a href="https://discord.gg/xvirustool">Discord</a>
+    <a href="https://discord.gg/fCaptcha">Discord</a>
     .
     <a href="https://t.me/hCapSolution">Telegram</a>
   </p>
