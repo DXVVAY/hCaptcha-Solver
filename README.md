@@ -1,5 +1,3 @@
-# Unflagging and image support on 100 stars!
-
 <br/>
 <p align="center">
   <a href="https://github.com/DXVVAY">
