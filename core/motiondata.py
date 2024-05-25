@@ -1,5 +1,5 @@
-from scipy import interpolate
 import numpy as np
+import bezier 
 import string
 import random
 import math
@@ -24,9 +24,10 @@ class util:
         r = [util.randint(-random_amount, random_amount) for _ in range(cp)]
         x += np.clip(r, 0, screen_size[0])
         y += np.clip(r, 0, screen_size[1])
-        tck, _ = interpolate.splprep((x, y), k=3 if cp > 3 else cp - 1)
+        random_point = (util.randint(0, screen_size[0]), util.randint(0, screen_size[1]))
+        curve = bezier.Curve(np.asfortranarray([[start[0], random_point[0], goal[0]], [start[1], random_point[1], goal[1]]]), degree=2)
         u = np.linspace(0, 1, num=min(2 + int(math.sqrt((goal[0] - start[0]) ** 2 + (goal[1] - start[1]) ** 2) / polling_rate), max_points))
-        points = interpolate.splev(u, tck)
+        points = curve.evaluate_multi(u)
         return [[int(x), int(y), util.get_ms()] for x, y in zip(*(i.astype(int) for i in points)) if time.sleep(1 / util.randint(80, 240)) is None]
 
     @staticmethod
