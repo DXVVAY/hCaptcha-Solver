@@ -1,7 +1,7 @@
 from datetime import datetime
 
 class logger:
-    def __init__(self, prefix: str = "DEXV-SOLVER"):
+    def __init__(self, prefix: str = "fCaptcha"):
         self.WHITE: str = "\u001b[37m"
         self.MAGENTA: str = "\033[38;5;97m"
         self.MAGENTAA: str = "\033[38;2;157;38;255m"
