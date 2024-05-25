@@ -1,5 +1,4 @@
 from concurrent.futures import ThreadPoolExecutor
-from playwright.sync_api import sync_playwright
 from core.motiondata import *
 from redis.client import Redis
 from tls_client import Session

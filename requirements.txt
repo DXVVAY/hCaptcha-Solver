@@ -1,11 +1,11 @@
 datetime
-scipy
 numpy
 string
 playwright
 tls_client
 redis
 re
+bezier
 requests
 hashlib
 g4f
