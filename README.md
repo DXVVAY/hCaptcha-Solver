@@ -25,10 +25,8 @@
 <p align="center">
   <a href="https://discord.gg/xvirus">
     <img alt="Discord" src="https://img.shields.io/discord/1193273961476280451?label=&logo=discord&logoColor=ffffff&color=C50F1f&labelColor=C50F1f">
-  </a>
-  <a href="https://www.codefactor.io/repository/github/DXVVAY/hCaptcha-Text-Solver">
-    <img src="https://www.codefactor.io/repository/github/DXVVAY/hCaptcha-Text-Solver/badge" alt="CodeFactor" />
-  </a>
+   </a>
+  <a href="https://www.codefactor.io/repository/github/dxvvay/hcaptcha-solver"><img src="https://www.codefactor.io/repository/github/dxvvay/hcaptcha-solver/badge" alt="CodeFactor" /></a>
     <img alt="lines" src="https://sloc.xyz/github/DXVVAY/hCaptcha-Text-Solver">
 </p>
 
