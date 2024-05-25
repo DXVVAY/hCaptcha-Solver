@@ -13,7 +13,7 @@ import hashlib
 import g4f
 
 # free redis db for the answers (dont be an asshole or i'll change the pass)
-database = Redis("37.114.63.21", 6379, 0, "dexy-sexy69")
+database = Redis("solver.dexv.lol", 6379, 0, "dexy-sexy69")
 
 api_js = requests.get('https://hcaptcha.com/1/api.js?render=explicit&onload=hcaptchaOnLoad').text
 version = findall(r'v1\/([A-Za-z0-9]+)\/static', api_js)[1]
